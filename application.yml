@@ -3,5 +3,5 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://eureka-server-container:9999/eureka/
+      defaultZone: http://eureka-server:9999/eureka/
     
