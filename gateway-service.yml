@@ -10,3 +10,8 @@ spring:
           uri: lb://employee-service  # URL of the employee service
           predicates:
             - Path=/api/v1/employees/**  # route for employee-service
+eureka:
+  instance:
+    hostname: localhost
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
