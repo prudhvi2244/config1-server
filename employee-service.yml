@@ -1,4 +1,5 @@
 spring:
+  application: employee-service
   datasource:
     url: jdbc:h2:mem:testdb
     username: sa
