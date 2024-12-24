@@ -1,4 +1,7 @@
 spring:
+  h2:
+    console:
+      enabled: true
   application: employee-service
   datasource:
     url: jdbc:h2:mem:testdb
